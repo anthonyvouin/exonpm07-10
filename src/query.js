@@ -6,3 +6,22 @@ export default async function retrieveContent() {
     return response.json();
   }
   
+  
+export default async function buffalo() {
+    const url = "https://api.gill-cote-bistro.fr/specials?_sort=id:asc";
+    const reponse = await fetch(url);
+    return reponse.json();  
+  }
+  
+  export default async function buffalo() {
+    const url = "https://api.gill-cote-bistro.fr/suggestions?_sort=id:asc)";
+    const reponse = await fetch(url);
+    return reponse.json();  
+  }
+  
+  export default async function buffalo() {
+    const url = "https://api.gill-cote-bistro.fr/histoires?_sort=id:asc";
+    const reponse = await fetch(url);
+    return reponse.json();  
+  }
+  

@@ -11,12 +11,6 @@ async function showContent() {
 
     document.getElementsByTagName('body')[0].appendChild(elt);
     
-    fetch(url + 'specials?_sort=id:asc')
-   .then((resp) => resp.json())
-   .then(function (data) {
-     console.log(data)
-     })
-
   } catch (e) {
     console.log('Error', e);
   }
