@@ -35,6 +35,31 @@ showContent();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 async function showContent2() {
   const content2 = await buffaloSuggestions();
   
