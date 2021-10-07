@@ -8,20 +8,20 @@ export default async function retrieveContent() {
   
   
 export default async function buffalo() {
-    const url = "https://api.gill-cote-bistro.fr/specials?_sort=id:asc";
-    const reponse = await fetch(url);
-    return reponse.json();  
+    const url2 = "https://api.gill-cote-bistro.fr/specials?_sort=id:asc";
+    const reponse2 = await fetch(url);
+    return reponse2.json();  
   }
   
   export default async function buffalo() {
-    const url = "https://api.gill-cote-bistro.fr/suggestions?_sort=id:asc)";
-    const reponse = await fetch(url);
-    return reponse.json();  
+    const url3 = "https://api.gill-cote-bistro.fr/suggestions?_sort=id:asc)";
+    const reponse3 = await fetch(url);
+    return reponse3.json();  
   }
   
   export default async function buffalo() {
-    const url = "https://api.gill-cote-bistro.fr/histoires?_sort=id:asc";
-    const reponse = await fetch(url);
-    return reponse.json();  
+    const url4 = "https://api.gill-cote-bistro.fr/histoires?_sort=id:asc";
+    const reponse4 = await fetch(url);
+    return reponse4.json();  
   }
   
